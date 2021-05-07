@@ -18,7 +18,7 @@
     flex-direction: row;
 }
 
-.listContainer {
+#listContainer {
     display: flex;
     flex-direction: column;
 }
@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: row;
 }
-.selectedSection {
+#selectedSection {
     display: flex;
     /*border: solid 1px blue;*/
     width: 80%;
