@@ -1,0 +1,134 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: solid 1px green;*/
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    width: 500px;
+    border: solid 1px black;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    /*border: solid 1px purple;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    border: solid 1px black;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.imageSection {
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.image {
+    width: 200px;
+    height: 200px;
+}
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+}
+.selectedSection {
+    display: flex;
+    /*border: solid 1px blue;*/
+    width: 80%;
+    /*align-items: center;*/
+    justify-content: center;
+}
+.selectedItem {
+    display: flex;
+    border: solid 1px black;
+    width: 350px;
+    height: 700px;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/*.greenButton {*/
+/*    background-color: #a7d68e;*/
+/*}*/
+
+/*.purpleButton {*/
+/*    background-color: #977AA6;*/
+/*}*/
+
+/*.redButton {*/
+/*    background-color: #EE8480;*/
+/*}*/
+
+/*.yellowButton {*/
+/*    background-color: #FFDE7A;*/
+/*}*/
+
+.loadButton {
+    background-color: #0d8afa;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imageSelectedItem {
+    border: solid 1px black;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.selectedImage {
+    width: 300px;
+    height: 300px;
+}
+
+.selectedTitle {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.tableOfAbilities {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.ability {
+    width: 220px;
+    text-align: center;
+}
+
+.abilityValue {
+    text-align: center;
+    width: 80px;
+}
