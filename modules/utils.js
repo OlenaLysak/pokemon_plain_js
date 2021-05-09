@@ -7,6 +7,11 @@ const Utils = {
 
     capitalizeFirstLetter: function (string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
+    },
+
+    errorHandler: function (error) {
+        alert("Sorry, something went wrong!");
+        console.error(error)
     }
 }
 
