@@ -76,21 +76,12 @@ button {
     border-radius: 5px;
 }
 
-/*.greenButton {*/
-/*    background-color: #a7d68e;*/
-/*}*/
-
-/*.purpleButton {*/
-/*    background-color: #977AA6;*/
-/*}*/
-
-/*.redButton {*/
-/*    background-color: #EE8480;*/
-/*}*/
-
-/*.yellowButton {*/
-/*    background-color: #FFDE7A;*/
-/*}*/
+.removeBtn {
+    margin: 20px;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+}
 
 .loadButton {
     background-color: #0d8afa;
