@@ -1,17 +1,19 @@
+//Doesnt have global Lexical Environment because type module creates it's own Lexical Environment
+
 import utils from "./utils.js";
 import constants from "./constants.js";
 import PokemonItem from "./pokemon-item.js";
 import SpecialPokemonItem from "./special-pokemon-item.js";
 
 class PokemonList {
-    constructor() {
-    }
+    constructor() {}
 
-    buildList(pokemonData) {
+    buildList(pokemonData) { //Outer Lexical Environment
         const listElement = document.createElement("div");
         listElement.classList.add("list");
 
-        pokemonData.map((item, index) => {
+        //Inner Lexical Environment
+        pokemonData.map((item, index) => {   //Creates different types of cards depending on item index
             if (index % 2 === 0) {
                 const pokemonItem = new PokemonItem(item.url, item.name, "item");
                     pokemonItem.create()
@@ -32,7 +34,7 @@ class PokemonList {
         listContainer.appendChild(listElement)
     }
 
-    createSelectedItem(data) {
+    createSelectedItem(data) {  // Creates detailed item card that was clicked
         const selectedSection = document.getElementById("selectedSection");
         selectedSection.innerHTML = '';
 

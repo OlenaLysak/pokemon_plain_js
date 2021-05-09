@@ -13,7 +13,6 @@ class PokemonItem {
     create() {
         let cardElement = document.createElement("div");
         cardElement.classList.add(this.className);
-        // listElement.appendChild(cardElement);
 
         let imgSection = document.createElement("div");
         imgSection.classList.add("imageSection");
@@ -38,8 +37,6 @@ class PokemonItem {
                 return cardElement;
             })
             .catch((err) => utils.errorHandler(err));
-
-
     }
 }
 
